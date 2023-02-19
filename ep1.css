@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+@font-face{
+font-family: Lato-Bold;
+    src: url("../ex/font/Lato/Lato-Bold.ttf");    
+}
+@font-face {
+    font-family: Lato-Light;
+    src: url("../ex/font/Lato/Lato-Light.ttf");
+}
+.home{
+    padding-top: 73px;
+    padding-bottom: 81px;
+    background-image: url("banner.png");
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.home h1 {
+                         /* font chữ */
+    font-family: Lato-light;
+    font-size: 55px;
+                        /* khoảng cách giữa dòng trên-dưới */
+    margin-bottom: 41px;
+}
+.home h1 {
+    font-family: Lato-Bold;
+}
+.home p {
+    font-family: Lato-Light;
+    margin-bottom: 50px;
+}
+.home button {
+    color: white;
+    background-color: rgb(24, 189, 126);
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 39px;
+    border: none;
+    padding: 0 13px;
+    letter-spacing: 2px;
+
+}
